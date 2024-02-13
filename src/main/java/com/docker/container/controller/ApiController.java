@@ -9,6 +9,6 @@ public class ApiController {
     @GetMapping("hello")
     public String hello ()
     {
-        return "My first docker container.";
+        return "My first docker container ...";
     }
 }
